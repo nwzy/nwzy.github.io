@@ -3,5 +3,6 @@ title: Posts
 ---
 
 {% for post in site.posts %}
-    [{{ post.title }}]({{ post }})
+    {{ post.date }}
+    # {{ post.title }}
 {% endfor %}
